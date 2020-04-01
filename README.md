@@ -6,7 +6,7 @@ Inflate Bruteforcer extracts information from files which use Deflate compressio
 
 # Install
 
-Requires Python3
+Requires Python3.6+
 
 No external Python3 dependencies required.
 
