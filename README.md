@@ -2,13 +2,12 @@
 
 Inflate Bruteforcer extracts information from files which use Deflate compression algorithm. It attempts to decompress data from each offset in a target file and stores decompressed data in separate files.
 
-**NOTE:** the script was originally made for solving steganography CTF challenges which require extracting data from corrupted .zip/.png/.docx and other relatively small files. Thus, it is based on the assumption that the compressed file can fully fit in your RAM.
+The script was originally made for solving steganography CTF challenges which require extracting data from corrupted .zip/.png/.docx and other relatively small files. 
 
 # Install
 
 Requires Python3.6+
 
-No external Python3 dependencies required.
 
 ```
 git clone https://github.com/doubleword/InflateBruteforcer.git
